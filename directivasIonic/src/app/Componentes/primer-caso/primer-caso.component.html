@@ -1,0 +1,5 @@
+<ion-button color="success" (click)="incrementCounter()">Incrementar contador</ion-button>
+<p>Contador: {{contador}}</p>
+<ion-item *ngIf="contador >= 18">
+  <ion-label>Felicidades, ya eres mayor de edad</ion-label>
+</ion-item>
